@@ -1,0 +1,28 @@
+.customNavBar .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+
+.customNavBar .ui-btn .ui-icon {
+	width: 48px!important;
+	height: 48px!important;
+	margin-left: 0 !important;
+	box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+	background-image: url(../images/icons/nav-icons.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 240dpi) {
+		.customNavBar .ui-btn .ui-icon {
+			background-image: url(../images/icons/nav-icons@2x.png);
+			background-size: 144px 96px;
+		}
+}
+
+
+#train .ui-icon { background-position: 0 0; }
+#plans .ui-icon { background-position: -48px 0; }
+#settings .ui-icon { background-position: -96px 0; }
+		
