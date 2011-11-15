@@ -10,4 +10,4 @@ But in Safari on iOS 5 the list elements and the list itself behaves like inline
 
 The list only takes the width of the widest list element and the content is only scrollable in that area.
 
-[Demo](https://mischah.github.com/Issue-2956) 
+[Demo](http://mischah.github.com/Issue-2956) 
