@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fixed header and footer - touchOverflowEnabled</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="jquery/mobile/jquery.mobile-1.0rc3.css"/>
+	<script src="jquery/jquery-1.6.4.js"></script>
+	<script language="javascript">
+		(function () {
+	
+			$(document).bind("mobileinit", function(){
+			  	// True fixed toolbars in iOS5 
+			  	$.mobile.touchOverflowEnabled = true;
+			  	// Disable toggling toolbars on tap
+			  	$.mobile.fixedToolbars.setTouchToggleEnabled(false);
+			});
+		
+		})();
+	</script>
+	<script src="jquery/mobile/jquery.mobile-1.0rc3.js"></script>
+</head>
+<body>
+	<div data-role="page">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>Fixed header - touchOverflowEnabled</h1>
+		</div>
+		
+		<div data-role="content">
+			<ul data-role="listview">
+				<li><a href="index.html">Acura</a></li>
+				<li><a href="index.html">Audi</a></li>
+				<li><a href="index.html">BMW</a></li>
+				<li><a href="index.html">Cadillac</a></li>
+				<li><a href="index.html">Chrysler</a></li>
+				<li><a href="index.html">Dodge</a></li>
+				<li><a href="index.html">Ferrari</a></li>
+				<li><a href="index.html">Ford</a></li>
+				<li><a href="index.html">GMC</a></li>
+				<li><a href="index.html">Honda</a></li>
+				<li><a href="index.html">Hyundai</a></li>
+				<li><a href="index.html">Infiniti</a></li>
+				<li><a href="index.html">Jeep</a></li>
+				<li><a href="index.html">Kia</a></li>
+				<li><a href="index.html">Lexus</a></li>
+				<li><a href="index.html">Mini</a></li>
+				<li><a href="index.html">Nissan</a></li>
+				<li><a href="index.html">Porsche</a></li>
+				<li><a href="index.html">Subaru</a></li>
+				<li><a href="index.html">Toyota</a></li>
+				<li><a href="index.html">Volkswagon</a></li>
+				<li><a href="index.html">Volvo</a></li>
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed" >
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="grid">Summary</a></li>
+					<li><a href="#" data-icon="star" class="ui-btn-active">Favs</a></li>
+					<li><a href="#" data-icon="gear">Setup</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
+
+
+
