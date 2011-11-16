@@ -1,4 +1,4 @@
-#Readme
+#touchOverflowEnabled issue in jQuery Mobile RC3
 
 This is a minimal example to demonstrate [Issue 2956](https://github.com/jquery/jquery-mobile/issues/2956) 
 
